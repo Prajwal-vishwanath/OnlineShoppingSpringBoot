@@ -68,6 +68,9 @@ public class UserResource {
 		return "Failed";
 	}
 
-	
+	@RequestMapping("/viewAllRetailers")
+	public List<Retailer> viewAllRetailers() {
+		return userService.viewAllRetailers();
+	}
 	
 }
