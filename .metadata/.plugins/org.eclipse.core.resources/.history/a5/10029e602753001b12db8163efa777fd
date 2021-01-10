@@ -1,0 +1,102 @@
+package com.lti.repository;
+
+import java.util.List;
+
+import com.lti.entity.Admin;
+import com.lti.entity.Customer;
+import com.lti.entity.Product;
+import com.lti.entity.Retailer;
+
+public class UserRepositoryImpl implements UserRepository {
+
+	@Override
+	public Admin addAnAdmin(Admin admin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean authenticateWithEmailAndPasswordAdmin(String email, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Customer addACustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer updateACustomer(Customer customer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Customer findCustomerById(long customerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Customer> viewAllCustomers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean authenticateWithEmailAndPasswordCustomer(String email, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean updatePasswordwithEmail(String email, String pwd) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean authenticateWithEmailAndPasswordRetailer(String email, String password) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Retailer addOrUpdateRetailer(Retailer retailer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Retailer findRetailerById(long retailerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Retailer> viewAllRetailers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double revenueGeneratedByRetailer(long retailerId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Product> displayRetailerProducts(long retailerId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product addProductByRetailer(Retailer retailer, Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

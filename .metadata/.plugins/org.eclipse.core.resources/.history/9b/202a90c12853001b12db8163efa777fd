@@ -1,0 +1,75 @@
+package com.lti.repository;
+
+import java.util.List;
+
+import com.lti.entity.Product;
+
+public class ProductRepositoryImpl implements ProductRepository {
+
+	@Override
+	public Product addOrUpdateProduct(Product product) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product findProductById(long productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> viewAllProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product updateStockOfProduct(long ProductId, int stock) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void removeProduct(long ProductId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List<Product> viewAllProductByCategoryName(String category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> viewProductsByProductName(String productName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> filterByProductName(String productName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> filterByPriceAndCategoryName(double minPrice, double maxPrice, String categoryName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> filterByBrand(String brand) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> filterByProductPrice(double minPrice, double maxPrice) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
